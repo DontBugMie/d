@@ -1,0 +1,79 @@
+*, 
+*::before,
+*::after{
+    margin:0;
+    padding:0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    box-sizing: border-box;
+    text-align: center;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+
+/*map section*/
+
+.mapSection{
+    height:170px;
+    overflow: hidden;
+}
+
+
+/* speed button section*/
+
+.speedBtnSection{
+    height: 170px;
+    background-color: wheat;
+    display:flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+}
+
+.btn{
+    height: 140px;
+    width: 100%;
+    display:flex;
+    align-content: center;
+    justify-content: center;
+    background-color: rgb(141, 20, 141);
+    /* transform: translateY(100%); */
+}
+.speedBtn{
+    /* width: 100%; */
+}
+
+.arrow{
+    height: 20%;
+}
+
+.leftArrow{
+    transform:rotate(180deg);
+    background-color: tomato;
+    height: 50%;
+}
+
+.speedBtnWalk{
+    background-color: sandybrown;
+}
+
+.speedBtnPlus{
+    background-color: paleturquoise;
+}
+
+.rightArrow{
+    background-color: peru;
+    height: 50%;
+    /* right:15px; */
+}
